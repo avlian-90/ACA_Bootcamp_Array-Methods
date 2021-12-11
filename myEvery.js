@@ -10,5 +10,5 @@ function myEvery(arr, cb) {
   return true;
 }
 
-console.log(myEvery(array, (el) => el < 10));
-console.log(array.every((el) => el < 10));
+console.log(myEvery(array, (el) => el > 2));
+console.log(array.every((el) => el > 2));
