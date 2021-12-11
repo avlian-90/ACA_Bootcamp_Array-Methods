@@ -4,7 +4,7 @@ const array = [1, 2, 3, 4, 5];
 
 function myForEach(arr, cb) {
   for (let i = 0; i < arr.length; i++) {
-    cb(arr[i], i, arr);
+    cb(arr[i], i);
   }
 }
 
