@@ -3,11 +3,11 @@
 const array = [3, 5, 7, 9, 3, 1];
 function myEvery(arr, cb) {
   for (let i = 0; i < arr.length; i++) {
-    if (cb(arr[i])) {
-      return true;
+    if (!cb(arr[i])) {
+      return false;
     }
-    return false;
   }
+  return true;
 }
 
 console.log(myEvery(array, (el) => el < 10));
