@@ -16,4 +16,5 @@
 6. [Implementation of Array.filter](./myFilter.js)<br>
 7. [Implementation of Array.every()](./myEvery.js)<br>
 8. [Implementation of Array.some()](./mySome.js)<br>
+9. [Implementation of Array.reduce()](./myReduce.js)
 
